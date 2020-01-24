@@ -37,7 +37,8 @@ You don't need much knowledge, try to know at least: how plugins are installed, 
 It is impossible to block all exploits, most of the grief is due to the stupidity of the owners, administrators or who has made a patent configuration of the server as the fact of using plugins with bypasses or configuring them incorectly.  
 Nor do I promise you that your network/server will be completely inescapable, nor will I be responsible for any damage you do to your server with this guide. (If you follow everything to the letter nothing bad will happen)  
   
-## Bungeecord
+![BungeecordBanner](http://i.imgur.com/HyNnNGE.png)  
+##### Bungeecord
 If you don't use bungeecord (which one you should use) you can skip this part even though I don't recommend it at all.  
 
 ### Default configuration
