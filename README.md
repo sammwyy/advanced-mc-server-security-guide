@@ -22,7 +22,8 @@ An advanced guide for protect your minecraft server or network.
   - [Hide Plugins](#hide-plugins)
   - [Summary](#summary)
 
-## Introduction
+![Introduction](http://i.imgur.com/Ih40NJz.png)
+###### Introduction
 ### What is this guide for?
 This guide is created with the sole purpose of protecting our server against exploit abuse that could damage the server or network.  
 With this guide you can block most exploits and bugs that the Grieffers (A.K.A Skiddies) use to break our cubes.  
