@@ -1,5 +1,5 @@
 # Advanced Server Security Guide
-A cybersecurity guide for your servers.
+An advanced guide for protect your minecraft server or network.
 
 #### Index
 - [1. Introduction](#introduction)
