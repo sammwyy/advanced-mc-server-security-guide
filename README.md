@@ -137,3 +137,9 @@ If your server supports non-premium players, you must have an authentication plu
 [Authme Reloaded](https://www.spigotmc.org/resources/authmereloaded.6269/) (Recommended).  
 [Login Security](https://www.spigotmc.org/resources/loginsecurity.19362/).  
 
+### WorldEdit Crash
+There are several exploits when using worldedit that can crashear the server besides that this plugin uses many resources and its tasks are Sync (that is, that the users will suffer from lag and the server will be frozen while this plugin is working) to correct this we will use [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/)
+
+### For Creative Servers
+There are several hacked clients capable of generating malicious, corrupt items or with custom NBT tags that can range from crashing to the server to taking huge enchantments.  
+For this we will use [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) and/or [ItemFixer](https://www.spigotmc.org/resources/itemfixer-remove-creative-hacked-items-from-your-server.34250/).
