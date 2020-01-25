@@ -172,3 +172,16 @@ If you do not have a bungeecord instance then the plugin mentioned in [Block bot
 [AntiBot-Attack](https://www.spigotmc.org/resources/anti-bot-attack.18540/).
 
 Remember that bot attacks cause a waste of resources on your server that can crashe it.
+
+### Hide Plugins in Spigot
+If you do not have a bungeecord instance then the plugin mentioned in [Hide Plugins](#hide-plugins) will not work for you, to block users from seeing your plugins you can use [PLSecure](https://www.spigotmc.org/resources/plsecure.7615/),
+
+### 2nd Check for Staff
+If you want to have a second authentication for your administrative staff then you can opt for this plugin.  
+[PinProtect](https://www.spigotmc.org/resources/pinprotect.34626/) adds a second authentication in the form of a pin in case the password is bypassed. (It is advisable to place it in the lobby)
+
+### IPWhitelist
+It is highly recommended that you have a firewall software on the server system, but if you do not have access to a terminal either because you use a web page that offers a host for minecraft servers or for any other reason and you have a Network, then you must use [IPWhitelist](https://www.spigotmc.org/resources/ipwhitelist.61/).  
+  
+[IPWhitelist](https://www.spigotmc.org/resources/ipwhitelist.61/) restricts from which bungeecord your Spigot server can be accessed.  
+otherwise the door is open to which they can access with any username if they discover the port of your Spigot server.
