@@ -143,3 +143,9 @@ There are several exploits when using worldedit that can crashear the server bes
 ### For Creative Servers
 There are several hacked clients capable of generating malicious, corrupt items or with custom NBT tags that can range from crashing to the server to taking huge enchantments.  
 For this we will use [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) and/or [ItemFixer](https://www.spigotmc.org/resources/itemfixer-remove-creative-hacked-items-from-your-server.34250/).
+
+### Block Items Duplication
+By default the minecraft code has some bugs that allow duplicate objects in the chests taking advantage of certain bugs, to solve this you can use a plugin below:  
+[ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) (Recommended).  
+[Dupe Fixes](https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/) (Dedicated plugins just for Dupe Exploits).  
+[Confiscate](https://www.spigotmc.org/resources/%E2%98%85-confiscate%E2%84%A2-hacks-exploits-bad-staff-protection-1-7-10-1-15-1.37893/) (Premium and excellent option with some usefull functions!!)
