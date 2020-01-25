@@ -128,3 +128,12 @@ op-permission-level=0
 ```
 Default value: 4  
 Recommended value: 0
+
+### IP Based Protection
+If you want one more layer of protection, you can protect the accounts of all staff using [AccountGuard](https://dev.bukkit.org/projects/accountguard). This plugin allows you to restrict the IP address from which you can access an account. In this way you can protect your account or those of the staff so that they can only be accessed from their respective IP address.
+
+### Cracked Authentication
+If your server supports non-premium players, you must have an authentication plugin, otherwise your server will be compromised to hacked clients. For this you can use a plugin below:  
+[Authme Reloaded](https://www.spigotmc.org/resources/authmereloaded.6269/) (Recommended).  
+[Login Security](https://www.spigotmc.org/resources/loginsecurity.19362/).  
+
