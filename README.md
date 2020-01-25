@@ -149,3 +149,13 @@ By default the minecraft code has some bugs that allow duplicate objects in the 
 [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) (Recommended).  
 [Dupe Fixes](https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/) (Dedicated plugins just for Dupe Exploits).  
 [Confiscate](https://www.spigotmc.org/resources/%E2%98%85-confiscate%E2%84%A2-hacks-exploits-bad-staff-protection-1-7-10-1-15-1.37893/) (Premium and excellent option with some usefull functions!!)
+
+### KickAll Exploit
+Normally in minecraft when you enter the server and your account is already online, it is disconnected giving way to the most recent connection, authme and bungeecord solve this but if your server is a network and you choose to use ipwhitelist since you can not install a software firewall then your server is vulnerable to an exploit that matches for each online player, making a connection which kicks the selected player (kicking all players)
+
+To solve this we will use the plugin called [AntiUserSteal](https://www.spigotmc.org/resources/antiusersteal.11986/)
+
+### UUID Spoof
+Hacked clients can easily change their uuid, which imposes a great risk for servers without adequate protection, luckily there are several plugins that solve this, for example [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) and [AntiUUIDSpoof](https://www.spigotmc.org/resources/security-antiuuidspoof.33721/).
+
+
