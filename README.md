@@ -86,7 +86,9 @@ To protect our server from attacks of invalid exploits and packages, it is advis
 we can secure our spigot servers from the bungeecord instance with some useful plugins, [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-professional-server-antiexploit.62842/) is the most recommended (and it's free)
 
 ### Block bots
-The most advisable thing is to block bots in the instancai bungeecord, for this we will use the following [Antibot plugin](https://www.spigotmc.org/resources/2ls-antibot-the-ultimate-antibot-plugin.62847/).
+The most advisable thing is to block bots in the instancai bungeecord, for this we will use the following [Antibot plugin](https://www.spigotmc.org/resources/2ls-antibot-the-ultimate-antibot-plugin.62847/).  
+  
+Remember that bot attacks cause a waste of resources on your server that can crashe it.
 
 ### World Downloader
 To prevent users from downloading our server constructions using WorldDownloaderMod, we will use this [plugin](https://www.spigotmc.org/resources/antiworlddownloader-bungee.37106/) that blocks that mod.
@@ -163,3 +165,10 @@ CustomPayload packets are called packages that are sent to the server with a spe
 Sending such large-scale packets or packets that the server cannot process can crashear the server if it does not have adequate protection.  
   
 To solve this we can use [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) or [CustomPayloadFixer](https://www.spigotmc.org/resources/custompayloadfixer-bungeecord-bukkit-spigot.39891/).
+
+### Bot Protection for Spigot
+If you do not have a bungeecord instance then the plugin mentioned in [Block bots](#block-bots) will not work for you, here is a list of antibot plugins which could be useful:  
+[AntiBot-Ultra](https://www.spigotmc.org/resources/antibot-ultra.45024/).
+[AntiBot-Attack](https://www.spigotmc.org/resources/anti-bot-attack.18540/).
+
+Remember that bot attacks cause a waste of resources on your server that can crashe it.
