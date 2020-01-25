@@ -21,6 +21,29 @@ An advanced guide for protect your minecraft server or network.
   - [Bungee Authme](#bungee-authme)
   - [Hide Plugins](#hide-plugins)
   - [Summary](#summary)
+- [3. Spigot](#spigot)
+  - [Block Spigot Exploits](#block-spigot-exploits)
+  - [Block OP](#block-op)
+  - [IP Based Protection](#ip-based-protection)
+  - [Cracked Authentication](#cracked-authentication)
+  - [WorldEdit Crash](#worldedit-crash)
+  - [For Creative Servers](#for-creative-servers)
+  - [Block Items Duplication](#block-items-duplication)
+  - [KickAll Exploit](#kickall-exploits)
+  - [UUID Spoof](#uuid-spoof)
+  - [Custom Payload Exploit](#custon-payload-exploit)
+  - [Bot Protection for Spigot](#bot-protecion-for-spigot)
+  - [Hide Plugins in Spigot](#hide-plugins-in-spigot)
+  - [2nd Check for Staff](#2nd-check-for-staff)
+  - [IPWhitelist](#ipwhitelist)
+  - [Book Exploit](#book-exploit)
+  - [Bad Potion Exploit](#bad-potion-exploit)
+  - [Skull Exploit](#skull-exploit)
+  - [Spigot Summary](#spigot-summary)
+- [4. Extra](#extra)
+  - [Firewall](#firewall)
+  - [IP Forward](#ip-forward)
+  - [Hide spigot ports](#hide-spigot-port)
 
 ![Introduction](http://i.imgur.com/Ih40NJz.png)
 ###### Introduction
@@ -119,7 +142,7 @@ The truth is not necessary to follow all these steps except for [Block Bots](#bl
 ![Spigot](http://i.imgur.com/SUHpEno.png)
 ###### Spigot
 
-### Block Exploits
+### Block Spigot Exploits
 As in bungee, we must protect our Spigot server from exploit attacks, for this we will use this plugin. [Exploitfixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) works for both Spigot and bungeecord, it is advisable to have it in both instances since there are exploits for spigot that bungee is unable to detect.
 
 ### Block OP
@@ -195,6 +218,9 @@ as well as hacked books, the same thing happens with potions, [AntiHackedPotions
 
 ### Skull Exploit
 Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crash the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/) or [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/).
+
+### Spigot Summary
+the truth is that most exploits are covered by [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/), but do not overlook AntiBot protection and some points that [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) still does not solve.
 
 ![Extra](http://i.imgur.com/deqw3at.png)
 ###### Extra
