@@ -194,4 +194,4 @@ To fix this we can use [Book-Sign Exploit Fix](https://www.spigotmc.org/resource
 as well as hacked books, the same thing happens with potions, [AntiHackedPotions](https://www.spigotmc.org/resources/antihackedpotions.17716/) detects potions with dangerously high spells or that can get the server crashed and removes them.
 
 ### Skull Exploit
-Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crashear the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/)
+Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crash the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/)
