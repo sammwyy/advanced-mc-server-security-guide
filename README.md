@@ -140,7 +140,7 @@ If your server supports non-premium players, you must have an authentication plu
 [Login Security](https://www.spigotmc.org/resources/loginsecurity.19362/).  
 
 ### WorldEdit Crash
-There are several exploits when using worldedit that can crashear the server besides that this plugin uses many resources and its tasks are Sync (that is, that the users will suffer from lag and the server will be frozen while this plugin is working) to correct this we will use [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/)
+There are several exploits when using worldedit that can crash the server besides that this plugin uses many resources and its tasks are Sync (that is, that the users will suffer from lag and the server will be frozen while this plugin is working) to correct this we will use [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/)
 
 ### For Creative Servers
 There are several hacked clients capable of generating malicious, corrupt items or with custom NBT tags that can range from crashing to the server to taking huge enchantments.  
@@ -162,7 +162,7 @@ Hacked clients can easily change their uuid, which imposes a great risk for serv
 
 ### Custom Payload Exploit
 CustomPayload packets are called packages that are sent to the server with a specific parameter, these packages are mostly used for communication between the client and the server in some mods or for communication between spigot/bungeecord.  
-Sending such large-scale packets or packets that the server cannot process can crashear the server if it does not have adequate protection.  
+Sending such large-scale packets or packets that the server cannot process can crash the server if it does not have adequate protection.  
   
 To solve this we can use [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) or [CustomPayloadFixer](https://www.spigotmc.org/resources/custompayloadfixer-bungeecord-bukkit-spigot.39891/).
 
