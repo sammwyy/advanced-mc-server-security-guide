@@ -113,3 +113,9 @@ To prevent users from observing the server plugins using the TabComplete method,
 
 ### Summary
 The truth is not necessary to follow all these steps except for [Block Bots](#block-bots), [Block Exploits](#block-exploits) and Block [Block Invalid Packets](#block-invalid-packets). While everything is in order it should not be why there are exploits in the bungeecord.
+
+![Spigot](http://i.imgur.com/SUHpEno.png)
+###### Spigot
+
+### Block Exploits
+As in bungee, we must protect our Spigot server from exploit attacks, for this we will use this plugin. [Exploitfixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) works for both Spigot and bungeecord, it is advisable to have it in both instances since there are exploits for spigot that bungee is unable to detect.
