@@ -168,7 +168,7 @@ To solve this we can use [ExploitFixer](https://www.spigotmc.org/resources/2ls-e
 
 ### Bot Protection for Spigot
 If you do not have a bungeecord instance then the plugin mentioned in [Block bots](#block-bots) will not work for you, here is a list of antibot plugins which could be useful:  
-[AntiBot-Ultra](https://www.spigotmc.org/resources/antibot-ultra.45024/).
+[AntiBot-Ultra](https://www.spigotmc.org/resources/antibot-ultra.45024/).  
 [AntiBot-Attack](https://www.spigotmc.org/resources/anti-bot-attack.18540/).
 
 Remember that bot attacks cause a waste of resources on your server that can crashe it.
@@ -185,3 +185,13 @@ It is highly recommended that you have a firewall software on the server system,
   
 [IPWhitelist](https://www.spigotmc.org/resources/ipwhitelist.61/) restricts from which bungeecord your Spigot server can be accessed.  
 otherwise the door is open to which they can access with any username if they discover the port of your Spigot server.
+
+### Book Exploit
+There are hacked customers able to create books with almost infinite enchantments. These books when interacting with a user cause the server to have to process a lot of information causing a memory overflow and causing it to close.  
+To fix this we can use [Book-Sign Exploit Fix](https://www.spigotmc.org/resources/book-sign-exploit-fix-book-and-quil-with-all-enchants-level-32767.45954/).
+
+### Bad Potion Exploit
+as well as hacked books, the same thing happens with potions, [AntiHackedPotions](https://www.spigotmc.org/resources/antihackedpotions.17716/) detects potions with dangerously high spells or that can get the server crashed and removes them.
+
+### Skull Exploit
+Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crashear the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/)
