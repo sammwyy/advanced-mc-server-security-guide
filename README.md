@@ -119,3 +119,12 @@ The truth is not necessary to follow all these steps except for [Block Bots](#bl
 
 ### Block Exploits
 As in bungee, we must protect our Spigot server from exploit attacks, for this we will use this plugin. [Exploitfixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) works for both Spigot and bungeecord, it is advisable to have it in both instances since there are exploits for spigot that bungee is unable to detect.
+
+### Block OP
+It is highly recommended to block the OP and not give it to anyone, not even have it ourselves. To block that a user can obtain OP thanks to a permit or by another operator, we will use [Anti ForceOP](https://dev.bukkit.org/projects/anti-forceop).  
+You can also configure that operators do not have any type of permissions by changing this parameter in the spigot server configuration:
+```properties
+op-permission-level=0
+```
+Default value: 4  
+Recommended value: 0
