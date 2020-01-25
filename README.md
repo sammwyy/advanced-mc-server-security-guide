@@ -156,6 +156,10 @@ Normally in minecraft when you enter the server and your account is already onli
 To solve this we will use the plugin called [AntiUserSteal](https://www.spigotmc.org/resources/antiusersteal.11986/)
 
 ### UUID Spoof
-Hacked clients can easily change their uuid, which imposes a great risk for servers without adequate protection, luckily there are several plugins that solve this, for example [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) and [AntiUUIDSpoof](https://www.spigotmc.org/resources/security-antiuuidspoof.33721/).
+Hacked clients can easily change their uuid, which imposes a great risk for servers without adequate protection, luckily there are several plugins that solve this, for example [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) and [AntiUUIDSpoof](https://www.spigotmc.org/resources/security-antiuuidspoof.33721/) (Recommended for mixed-mode).
 
-
+### Custom Payload Exploit
+CustomPayload packets are called packages that are sent to the server with a specific parameter, these packages are mostly used for communication between the client and the server in some mods or for communication between spigot/bungeecord.  
+Sending such large-scale packets or packets that the server cannot process can crashear the server if it does not have adequate protection.  
+  
+To solve this we can use [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/) or [CustomPayloadFixer](https://www.spigotmc.org/resources/custompayloadfixer-bungeecord-bukkit-spigot.39891/).
