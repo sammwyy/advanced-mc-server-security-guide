@@ -187,7 +187,7 @@ It is highly recommended that you have a firewall software on the server system,
 otherwise the door is open to which they can access with any username if they discover the port of your Spigot server.
 
 ### Book Exploit
-There are hacked customers able to create books with almost infinite enchantments. These books when interacting with a user cause the server to have to process a lot of information causing a memory overflow and causing it to close.  
+There are hacked clients able to create books with almost infinite enchantments. These books when interacting with a user cause the server to have to process a lot of information causing a memory overflow and causing it to close.  
 To fix this we can use [Book-Sign Exploit Fix](https://www.spigotmc.org/resources/book-sign-exploit-fix-book-and-quil-with-all-enchants-level-32767.45954/).
 
 ### Bad Potion Exploit
