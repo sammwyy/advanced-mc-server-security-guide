@@ -188,10 +188,59 @@ otherwise the door is open to which they can access with any username if they di
 
 ### Book Exploit
 There are hacked clients able to create books with almost infinite enchantments. These books when interacting with a user cause the server to have to process a lot of information causing a memory overflow and causing it to close.  
-To fix this we can use [Book-Sign Exploit Fix](https://www.spigotmc.org/resources/book-sign-exploit-fix-book-and-quil-with-all-enchants-level-32767.45954/).
+To fix this we can use [Book-Sign Exploit Fix](https://www.spigotmc.org/resources/book-sign-exploit-fix-book-and-quil-with-all-enchants-level-32767.45954/) or [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/).
 
 ### Bad Potion Exploit
-as well as hacked books, the same thing happens with potions, [AntiHackedPotions](https://www.spigotmc.org/resources/antihackedpotions.17716/) detects potions with dangerously high spells or that can get the server crashed and removes them.
+as well as hacked books, the same thing happens with potions, [AntiHackedPotions](https://www.spigotmc.org/resources/antihackedpotions.17716/) or [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/), those plugins detects potions with dangerously high spells or that can get the server crashed and removes them.
 
 ### Skull Exploit
-Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crash the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/)
+Like the previous points, minecraft heads have many properties that can be exploited and corrupt worlds, chunks or crash the server. We can detect and remove them using [Skull Exploit Fix](https://www.spigotmc.org/resources/skull-exploit-fix.26099/) or [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-advanced-server-anticrash.62842/).
+
+![Extra](http://i.imgur.com/deqw3at.png)
+###### Extra
+
+### Hide spigot port
+The most advisable thing is to use a firewall to block the ports of the spigot servers from ips that do not come from the local network (127.0.0.1) but making spigot only listen to the local IP (127.0.0.1) is a good practice that NEVER forget.  
+
+```yaml
+# On spigot servers (server.properties)
+server-ip= 127.0.0.1
+```
+```yaml
+# On bungeecord instance (config.yml)
+# in any server in the "servers" list:
+servers:
+  server-1:
+    address: 127.0.0.1:xxxxx
+    restricted: false
+  server-2:
+    address: 127.0.0.1:xxxxx
+    restricted: false
+  server-3:
+    address: 127.0.0.1:xxxxx
+    restricted: false
+```
+
+### IP Forward
+if the bungeecord hook or ip forward are deactivated then the spigot servers will be unable to recognize the IP address of the users.  
+  
+For this we will place the ip_forward option in the bungeecord config.yml to true, and the "bungeecord" option in the spigot.yml file of all spigot servers to true.
+
+```yaml
+# Config.yml of Bungeecord
+ip_forward: true
+```
+
+```yaml
+# Spigot.yml of each spigot server
+settings:
+  bungeecord: true
+```
+
+### Firewall
+A firewall is a software that allows us to restrict incoming and outgoing connections to the server, it is extremely recommended to use [IPTables](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands) or [UFW](https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/).
+
+You can get more information searching on the internet.
+
+# The END
+###### Maded with ❤️ Need help? contact me on discord (view my github profile) or contact me on twitter: [@Sammwy_](https://twitter.com/sammwy_)
