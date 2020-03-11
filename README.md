@@ -269,4 +269,4 @@ A firewall is a software that allows us to restrict incoming and outgoing connec
 You can get more information searching on the internet.
 
 # The END
-###### Maded with ❤️ Need help? contact me on discord (view my github profile) or contact me on twitter: [@Sammwy_](https://twitter.com/sammwy_)
+###### Made with ❤️ Need help? contact me on discord (view my github profile) or contact me on twitter: [@Sammwy_](https://twitter.com/sammwy_)
