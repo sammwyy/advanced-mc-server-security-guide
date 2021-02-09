@@ -194,7 +194,7 @@ If you do not have a bungeecord instance then the plugin mentioned in [Block bot
 [AntiBot-Ultra](https://www.spigotmc.org/resources/antibot-ultra.45024/).  
 [AntiBot-Attack](https://www.spigotmc.org/resources/anti-bot-attack.18540/).
 
-Remember that bot attacks cause a waste of resources on your server that can crashe it.
+Remember that bot attacks cause a waste of resources on your server that can crash it.
 
 ### Hide Plugins in Spigot
 If you do not have a bungeecord instance then the plugin mentioned in [Hide Plugins](#hide-plugins) will not work for you, to block users from seeing your plugins you can use [PLSecure](https://www.spigotmc.org/resources/plsecure.7615/),
